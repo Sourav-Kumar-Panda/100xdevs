@@ -7,7 +7,7 @@ function updateClock() {
     // Clear the terminal (console) before printing the new time
     console.clear();
 
-    console.log(`${hours}:${minutes}:${seconds}`);
+    console.log(""+hours+":"+minutes+":"+seconds);
 }
 
 // Update the clock every second (1000 milliseconds)
